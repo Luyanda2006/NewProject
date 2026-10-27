@@ -105,3 +105,13 @@ button:disabled {
 .shop-btn:hover:not(:disabled) {
     background-color: #e78e43;
 }
+
+.developer-credit {
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
