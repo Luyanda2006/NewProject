@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    color: #222;
+    margin-top: 0;
+}
+
+#timerDisplay {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9534f;
+    background-color: #fbeeed;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#scoreDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin: 15px 0 5px 0;
+}
+
+#highScoreDisplay {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #2a9d8f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #20786e;
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.secondary-btn {
+    background-color: #e76f51;
+}
+
+.secondary-btn:hover:not(:disabled) {
+    background-color: #c85a3e;
+}
+
+.shop-container {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px dashed #e0e0e0;
+}
+
+.shop-container h3 {
+    margin: 0 0 5px 0;
+    color: #264653;
+}
+
+#multiplierDisplay {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.shop-btn {
+    background-color: #f4a261;
+    font-size: 0.95rem;
+    padding: 10px;
+}
+
+.shop-btn:hover:not(:disabled) {
+    background-color: #e78e43;
+}

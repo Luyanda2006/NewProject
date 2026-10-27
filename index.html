@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Arcade Clicker</h1>
+
+        <div class="stats-row">
+            <p id="timerDisplay">Time Left: 10s</p>
+        </div>
+        <p id="scoreDisplay">Score: 0</p>
+        <p id="highScoreDisplay">High Score: 0</p>
+
+        <button id="actionButton">Click Me!</button>
+        <button id="resetButton" class="secondary-btn">Restart Game</button>
+
+        <div class="shop-container">
+            <h3>Multiplier Shop</h3>
+            <p id="multiplierDisplay">Current Power: +1 per click</p>
+            <button id="buyX2" class="shop-btn">Buy +2 Power (Cost: 15 points)</button>
+            <button id="buyX5" class="shop-btn">Buy +5 Power (Cost: 40 points)</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
